@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Deca:wght@100..900&family=Miranda+Sans:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body>
+    <main>
+        <div class="topmost">
+            <nav>
+              <img src="logo.svg" alt="" />
+              <section class="dropdown">
+                <img src="icon-units.svg" alt="" />
+                <p>Units</p>
+                <img src="icon-dropdown.svg" alt="" />
+              </section>
+            </nav>
+            <section class="kkk">
+              <h1>How's the sky looking today?</h1>
+              <form>
+                <input type="search" id="search-weather" name="search" placeholder=" &#128269 Search for a place..."/>
+                <button type="button">Search</button>
+              </form>
+            </section>
+        </div>
+        <hgroup>
+            <article class="item1">
+              <div class="weatherBoard">
+                <div class="detail">
+                  <h2>Berlin, Germany</h2>
+                  <p>Tuesday, Aug 5, 2025</p>
+                </div>
+                <div class="sun">
+                  <img src="icon-sunny.webp" alt="" />
+                </div>
+                <div class="degree">
+                  <p><i>20°</i></p>
+                </div>
+              </div>
+              <div class="container2">
+                <section class="box">
+                  <p>Feels Like</p>
+                  <p><span>18°</span></p>
+                </section>
+                <section class="box">
+                  <p>Humidity</p>
+                  <p><span>46%</span></p>
+                </section>
+                <section class="box">
+                  <p>Wind</p>
+                  <p><span>14 km/h</span></p>
+                </section>
+                <section class="box">
+                  <p>Precipitation</p>
+                  <p><span>0 mm</span></p>
+                </section>
+              </div>
+              <div class="downbox">
+                <h2>Daily Forecast</h2>
+                <article class="foreContainer">
+                  <section class="forecast">
+                    <p>Tue</p>
+                    <img src="icon-rain.webp" alt="" />
+                    <article class="info">
+                      <p>20°</p>
+                      <p>14°</p>
+                    </article>
+                  </section>
+                  <section class="forecast">
+                    <p>Wed</p>
+                    <img src="icon-drizzle.webp" alt="" />
+                    <article class="info">
+                      <p>21°</p>
+                      <p>15°</p>
+                    </article>
+                  </section>
+                  <section class="forecast">
+                    <p>Thu</p>
+                    <img src="icon-sunny.webp" alt="" />
+                    <article class="info">
+                      <p>24°</p>
+                      <p>14°</p>
+                    </article>
+                  </section>
+                  <section class="forecast">
+                    <p>Fri</p>
+                    <img src="icon-partly-cloudy.webp" alt="" />
+                    <article class="info">
+                      <p>25°</p>
+                      <p>13°</p>
+                    </article>
+                  </section>
+                  <section class="forecast">
+                    <p>Sat</p>
+                    <img src="icon-storm.webp" alt="" />
+                    <article class="info">
+                      <p>21°</p>
+                      <p>15°</p>
+                    </article>
+                  </section>
+                  <section class="forecast">
+                    <p>Sun</p>
+                    <img src="icon-snow.webp" alt="" />
+                    <article class="info">
+                      <p>25°</p>
+                      <p>16°</p>
+                    </article>
+                  </section>
+                  <section class="forecast">
+                    <p>Tue</p>
+                    <img src="icon-fog.webp" alt="" />
+                    <article class="info">
+                      <p>24°</p>
+                      <p>15°</p>
+                    </article>
+                  </section>
+                </article>
+              </div>
+            </article>
+          <div class="dropbox item2">
+            <section class="top">
+              <h2>Hourly forecast</h2>
+              <label for="selector">
+                <select name="selector" id="selector">
+                  <option>Monday</option>
+                  <option selected>Tuesday</option>
+                  <option>Wednesday</option>
+                  <option>Thursday</option>
+                  <option>Friday</option>
+                  <option>Saturday</option>
+                  <option>Sunday</option>
+                </select>
+              </label>
+            </section>
+            <section class="opt">
+              <img src="icon-overcast.webp" alt="" />
+              <p>3 PM</p>
+              <p>20°</p>
+            </section>
+            <section class="opt">
+              <img src="icon-partly-cloudy.webp" alt="" />
+              <p>4 PM</p>
+              <p>20°</p>
+            </section>
+            <section class="opt">
+              <img src="icon-sunny.webp" alt="" />
+              <p>5 PM</p>
+              <p>20°</p>
+            </section>
+            <section class="opt">
+              <img src="icon-overcast.webp" alt="" />
+              <p>6 PM</p>
+              <p>19°</p>
+            </section>
+            <section class="opt">
+              <img src="icon-snow.webp" alt="" />
+              <p>7 PM</p>
+              <p>18°</p>
+            </section>
+            <section class="opt">
+              <img src="icon-fog.webp" alt="" />
+              <p>8 PM</p>
+              <p>18°</p>
+            </section>
+            <section class="opt">
+              <img src="icon-snow.webp" alt="" />
+              <p>9 PM</p>
+              <p>17°</p>
+            </section>
+            <section class="opt">
+              <img src="icon-overcast.webp" alt="" />
+              <p>10 PM</p>
+              <p>17°</p>
+            </section>
+          </div>
+        </hgroup>
+    </main>
+  </body>
+</html>
